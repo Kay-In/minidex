@@ -1,0 +1,64 @@
+@font-face {
+    font-family: poketype;
+    src: url(../img/Pokemon_Solid.ttf);
+}
+
+body {
+    background-image: url(../img/pokefond1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+}
+
+#useraction {
+    background-color: rgba(56, 31, 31, 0.699);
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+#useraction p {
+    color: white;
+}
+
+#pokesearch {
+    background-color: tomato;
+}
+
+#check {
+    background-color: tomato;
+}
+
+h1 {
+    margin: 5px;
+    font-family: poketype;
+    text-align: center;
+    color: red;
+}
+
+main {
+    background-color: rgba(56, 31, 31, 0.699);
+}
+
+#search {
+    z-index: 1000;
+}
+
+.titre {
+    margin-left: 0%;
+    color: white;
+}
+
+.info {
+    margin-top: 15%;
+    color: white;
+}
+
+.pokecapture {
+    margin: 5px;
+}
+
+#pokeimg {
+    border: transparent;
+}

@@ -1,0 +1,64 @@
+body {
+    background-image: url(../img/fond.png);
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgba(85, 81, 81, 0.5);
+    color: rgb(25, 88, 25);
+    text-align: center;
+}
+
+.green {
+    color: rgb(25, 88, 25);
+    font-weight: bolder;
+}
+
+#ok {
+    justify-self: center;
+}
+
+form {
+    height: 500px;
+    background-color: rgba(85, 81, 81, 0.7);
+    ;
+}
+
+tr {
+    border: black solid 1px;
+}
+
+td {
+    border: black solid 1px;
+}
+
+.masque {
+    /* On place l'élément dans le coin supérieur gauche de l'écran */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* On dimensionne l'élément pour qu'il occupe tout l'écran */
+    width: 100%;
+    /* 100 vw */
+    height: 100%;
+    /* 100 vh */
+    /* On positionne l'élément par dessus tout le reste */
+    z-index: 1000;
+    /* On ajoute un arrière-plan noir opaque à 80% */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* On masque l'élément */
+    display: none;
+}
+
+.message {
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+a {
+    color: cornflowerblue!important;
+}

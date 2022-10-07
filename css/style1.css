@@ -1,0 +1,62 @@
+    @font-face {
+        font-family: pacifico;
+        src: url(../img/pacifico_regular.ttf);
+    }
+    
+    .entete {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    img {
+        float: left;
+    }
+    
+    header h1 {
+        margin-left: 7em;
+        font-family: pacifico;
+        color: greenyellow;
+        text-align: center;
+    }
+    
+    h1 {
+        align-self: center;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        background-color: black;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: white;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h3 {
+        background-color: greenyellow;
+        font-family: pacifico;
+        color: white;
+    }
+    
+    p {
+        text-align: left;
+    }
+    
+    footer {
+        text-align: right;
+    }
+    
+    footer a {
+        text-decoration-line: none;
+    }
